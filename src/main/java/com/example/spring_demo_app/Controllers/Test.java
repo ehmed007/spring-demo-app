@@ -19,4 +19,9 @@ public class Test {
 
         return "Spring boot application runnning.";
     }
+
+    @GetMapping("/test")
+    public String check1() {
+        return "Spring boot application is working";
+    }
 }
